@@ -1,0 +1,31 @@
+{
+    "name": "prueba",
+    "displayName": "prueba",
+    "description": "tema VSCode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PruebaCabCode",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PruebaCabCode-color-theme.json"
+            }
+        ]
+    },
+    "icon":"icon.png",
+    "author":{
+        "name":"Estuardo Cabrera Cab-Code",
+        "email": "estuardocabrera10c@gmail.com"
+    },
+    "repository":{
+        "url":"https://github.com/Cab-Code/VSCodeTema.git",
+        "type": "git"
+    },
+    "publisher": "Codigo-PruebaTry"
+}
